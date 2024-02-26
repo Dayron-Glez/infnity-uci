@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active-link {
+  border-bottom: thin solid red;
+  padding-bottom: 2rem;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.no-arrows .carousel-control-prev,
+.no-arrows .carousel-control-next {
+  display: none;
+}
+
