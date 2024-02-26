@@ -94,7 +94,7 @@ export function Menu() {
                   }
                 })}
               />
-              {errors.email && <span className=" text-red-500">{errors.email.message}</span>}
+              {errors.email && <span className=" text-[#0b1b1f]">{errors.email.message}</span>}
               <label htmlFor="password" className=" text-white">
                 Password
               </label>
@@ -115,7 +115,7 @@ export function Menu() {
                 })}
                 />
                 {
-                  errors.password && <span className=" text-red-500">{errors.password.message}</span>
+                  errors.password && <span className=" text-[#0d2226]">{errors.password.message}</span>
                 }
               <div className="flex justify-end">
                 <button
